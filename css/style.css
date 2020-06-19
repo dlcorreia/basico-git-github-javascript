@@ -1,7 +1,51 @@
-section {
-    border-top: 1px solid black;
+body {
+    font-family: Lucida Console, Courier, monospace;
 }
 
-.destaca_texto {
+section {
+    border-top: 1px solid black;
+    margin-bottom: 5em;
+}
+
+.titulo_secao {
+    display: flex;
+    align-items: center;
+}
+
+.titulo_secao > * {
+    margin-top: 1em;
+    padding-right: 2em;
+}
+
+.logo {   
+    width: 5em;
+}
+
+ul{
+    margin-top: 5em;
+}
+
+li {
+    padding-top: 1.5em;
+    margin-left: 2em;
+}
+
+.termo_tecnico {
     font-style: italic;
+}
+
+code {
+    background-color: lightgray;
+}
+
+.importante:link {
+    color: white;
+    text-decoration: none;
+    color: default;
+}
+
+.importante:visited {
+    color: black;
+    size: 1.4em;
+    font-weight: bold;
 }

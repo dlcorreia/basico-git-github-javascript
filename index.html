@@ -12,28 +12,30 @@
         <nav>
             <ul>
                 <li class="nav">
-                    <a href="#git" target="top">git</a>
-                    <a href="#github" taget="top">github</a>
-                    <a href="#javascript" target="top">javascript</a>
+                    <a href="#git">git</a>
+                    <a href="#github">github</a>
+                    <a href="#javascript">javascript</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="git" class="secao">
-            <h2>git</h2>
-            <img src="./imagens/150px-Git-logo.svg.png" alt="git logo">
-            <ul>
+            <div class="titulo_secao">
+                <h2>git</h2>
+                <img src="./imagens/150px-Git-logo.svg.png" alt="git logo" class="logo">
+            </div>
+            <ul>Idéias básicas:
                 <li>
                     <p>Sistema distribuído de controle de versão para 
                     rastreamento de alterações no código fonte durante 
                     o desenvolvimento de software.</p>
                 </li>
                 <li>
-                    <p>Programa executado principalmente através do <span class="destaca_texto">terminal de comando</span></p>
+                    <p>Programa executado principalmente através do <span class="termo_tecnico">terminal de comando</span></p>
                 </li>
                 <li>
-                    <p>Diversos comandos, mas apenas alguns são utilizados realmente todo dia (<span class="destaca_texto">add, commit, push</span>)</p>
+                    <p>Diversos comandos, mas apenas alguns são utilizados realmente todo dia (<span class="termo_tecnico">add, commit, push</span>)</p>
                 </li>
                 <li>
                     <p>Site oficial:
@@ -46,14 +48,81 @@
             </ul>
         </section>
         <section id="github" class="secao">
-            <h2>github</h2>
-            <img src="./imagens/54px-Font_Awesome_5_brands_github.svg.png" alt="github logo">
-            <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">github na wikipedia</a>
+            <div class="titulo_secao">
+                <h2>github</h2>
+                <img src="./imagens/54px-Font_Awesome_5_brands_github.svg.png" alt="github logo" class="logo">
+            </div>
+            <ul>Idéias básicas:
+                <li>
+                    <p>Companhia norte-americana (recém adquirida pela Microsoft
+                         inclusive) que provê a hospedagem online de repositórios Git.</p>
+                </li>
+                <li>Conceitos mais que básicos:
+                    <ul>
+                        <li><span class="termo_tecnico">Repositório</span></li>
+                        <li><span class="termo_tecnico">Commit</span></li>
+                        <li><span class="termo_tecnico">Branch</span></li>
+                    </ul>
+                </li>
+                <li>Possibilita publicar os repositório e criar páginas através deles no github pages.</li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">github na wikipedia</a>
+                </li>
+            </ul>
         </section>
         <section id="javascript" class="secao">
-            <h2>javascript</h2>
-            <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">javascript na wikipedia</a>
+            <div class="titulo_secao">
+                <h2>JavaScript</h2>
+                <img src="./imagens/js.png" alt="javascript logo" class="logo">    
+            </div>
+            <ul>Idéias básicas:
+                <li>
+                    <p>JavaScript é uma <span class="termo_tecnico">linguagem de programação</span> de <span class="termo_tecnico">alto-nível</span>, <span class="termo_tecnico">compilada just-in-time</span>, 
+                        e <span class="termo_tecnico">multi-paradigma</span>.
+                    </p>
+                </li>
+                <li>
+                    <p>Outras características próprias:
+                        <ul>
+                            <li><span class="termo_tecnico">curly-bracket syntax</span></li>
+                            <li><span class="termo_tecnico">dynamic typing</span></li>
+                            <li><span class="termo_tecnico">prototype-based object-orientation</span></li>
+                            <li><span class="termo_tecnico">first-class functions</span></li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>Linguagem muito utilizada, possui uma infinidade de <span class="termo_tecnico">frameworks</span>, 
+                    <span class="termo_tecnico">bibliotecas</span> e está em <span class="termo_tecnico">constante evolução</span>.</p>
+                </li>
+                <li>
+                    <p>Criada para atuar no <span class="termo_tecnico">front-end</span>, "do lado do cliente", hoje o 
+                    JavaScript já está também no <span class="termo_tecnico">back-end</span> com o <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">Node.js</a>.</p>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">javascript na wikipedia</a>
+                </li>
+            </ul>
+            <ul>Agora, um pouco de programação:
+                <li>
+                    <h3>Hello World!</h3>
+                    <p>A praxe de qualquer linguagem é começar com o famoso "Hello World!"</p>
+                    <button class="button hello-world" onclick="sayHello()">Será que vai funcionar?</button>
+                </li>
+                <li>
+                    <h3>Variáveis que variam...</h3>
+                    <p>Variáveis são uma parte importante de qualquer linguagem de programação.</p>
+                    <p>Elas servem para armazenar informações, mas nunca esqueça: <a href="#" onclick="return false" class="importante">no fundo, tudo não passa de zeros e uns!</a></p>
+                </li>
+            </ul>
+
+
         </section>
     </main>
+    <script>
+        function sayHello() {
+            alert("Hello World!");
+        } 
+    </script>
 </body>
 </html>
